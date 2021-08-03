@@ -1,0 +1,72 @@
+/* MUDAR A COR DO ICONE DE NAVEGAÇÃO RESPONSIVA*/
+.navbar-light .navbar-toggler {
+    color: rgba(255, 255, 255);
+    border-color: rgba(255, 255, 255);
+}
+
+/* MUDAR A COR DOS TEXTOS NO #CAPA */
+#capa h1,
+#capa p{
+	color: white;
+}
+
+/* COLOCAR ESPAÇAMENTO ENTRE OS CONTEUDOS */
+.caixa{
+	padding: 15px 0;
+	border-bottom: 1px solid rgba(139, 137, 137, .5);
+}
+
+/* MUDAR O HOVER DOS LINKS DE COMPARTILHAMENTO */
+.dropdown-item1 {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #00acee;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: all .6s;
+}
+.dropdown-item1:hover {
+    color: white;
+    background-color: #00acee;
+}
+
+.dropdown-item2 {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #3b5998;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: all .6s;
+}
+.dropdown-item2:hover {
+    color: white;
+    background-color: #3b5998;
+}
+
+.dropdown-item3 {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #34af23;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+    transition: all .6s;
+}
+.dropdown-item3:hover {
+    color: white;
+    background-color: #34af23;
+}
